@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+h1{
+  font-size: 42px;
+  font-family: 'Lora', sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: #243E36;
+}
+
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickMeButton{
+  height: 20px;
+  width: 80px;
+  background-color: #F4CAE0;
+  border-radius: 10px;
+}
