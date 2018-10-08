@@ -1,0 +1,34 @@
+{
+	"cases": [
+		{
+			"id": 1,
+			"image": "images/caseImage1.png",
+			"description": "Radio player bulit in React using Sveriges Radio API."
+		},
+		{
+			"id": 2,
+			"image": "images/caseImage2.png",
+			"description": "One-pager in HTML and CS5# using Flexbox. Client: Volumental"
+		},
+		{
+			"id": 3,
+			"image": "images/caseImage1.png",
+			"description": "News site built with Google News API. Client: Bonnier."
+		},
+		{
+			"id": 4,
+			"image": "images/caseImage2.png",
+			"description": "Weather Chrome Extension built on Open Weather API."
+		},
+		{
+			"id": 5,
+			"image": "images/caseImage1.png",
+			"description": "Clock."
+		},
+		{
+			"id": 6,
+			"image": "images/caseImage2.png",
+			"description": "Product page."
+		}
+	]
+}
