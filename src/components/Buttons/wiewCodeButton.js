@@ -3,9 +3,8 @@ import React from "react"
 class WiewCodeButton extends React.Component {
 
   render() {
-
     return (
-        <button className="mediumButton applyButton">Wiew the code</button>
+      <button className="mediumButton">Wiew the code</button>
     )
   }
 

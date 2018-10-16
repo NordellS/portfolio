@@ -1,17 +1,35 @@
 
-button {
+.mediumButton {
   background-color: #FDE8C5;
   border-radius: 40px;
   color: #F5A71E;
-  padding: 15px 0;
+  padding: 15px 0 12px;
   margin: 10px 0;
   width: 150px;
   cursor: pointer;
   border: none;
   outline: none;
   font-family: BigJohn;
+  font-size: 12px;
 }
 
-button:hover {
+.mediumButton:hover {
   background-color: #ffe2b7;
+}
+
+.navigationButtonTop-small{
+  border-radius: 20px;
+  color: #F5A71E;
+  padding: 7px 0 5px;
+  margin: 5px 0;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: BigJohn;
+  font-size: 16px;
+}
+
+.navigationButtonTop-small:hover {
+  background-color: #FDE8C5;
 }
