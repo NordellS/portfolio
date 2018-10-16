@@ -8,7 +8,7 @@ class AboutMePresentation extends React.Component {
     return (
       <div className="aboutContainer">
         <div className="aboutContainerImage">
-          <img src="./images/userImage.png" alt="Sara Nordell" />
+          <img src="./images/me.png" alt="Sara Nordell" />
         </div>
         <div className="aboutContainerText">
           <h2>Sara Nordell</h2>
