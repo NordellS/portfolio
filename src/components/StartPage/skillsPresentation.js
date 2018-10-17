@@ -29,6 +29,9 @@ class SkillsPresentation extends React.Component {
           </div>
           <div className="textBox">
             <h4>More</h4>
+            <li>Project lead</li>
+            <li>Concept development</li>
+            <li>Agile methodology</li>
           </div>
           <div className="textBox">
             <h4>Upcoming</h4>

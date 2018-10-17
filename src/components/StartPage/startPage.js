@@ -19,11 +19,10 @@ class StartPage extends React.Component {
           <TechPresentation />
 
           <div className="CasePreviewBoxContainer">
-            {casesJson.cases.map(caseItem =>
-              <CasePreviewBox
-                headline={caseItem.headline}
-                image={caseItem.image}
-                id={caseItem.id} />)
+            {casesJson.cases.map(caseItem => <CasePreviewBox
+              headline={caseItem.headline}
+              image={caseItem.image}
+              id={caseItem.id} />)
             }
           </div>
 

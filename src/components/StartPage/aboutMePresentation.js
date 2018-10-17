@@ -13,7 +13,8 @@ class AboutMePresentation extends React.Component {
         <div className="aboutContainerText">
           <h2>Sara Nordell</h2>
           <h1>Frontend Developer</h1>
-          <p> Hi! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p>
+          Hi! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Cras pellentesque finibus lacus, et tempus libero dapibus vel.
           Pellentesque habitant morbi tristique senectus et netus et
           malesuada fames ac turpis egestas.

@@ -42,51 +42,12 @@ li{
   font-size: 15px;
 }
 
-/* ------------------TEXT BLOCKS: SKILLS, STUDIES and CASE PAGE TECH------------------ */
-
-/* TECH, SKILLS, STUDIES headline */
-h3{
-  font-family: BigJohn;
-  font-size: 22px;
-  color: #000;
-}
-
-/* Headlines in textboxes under TECH, SKILLS, STUDIES*/
-.textBox h4{
-  font-family: BigJohn;
-  font-size: 15px;
-  margin: 0;
-  padding-bottom: 5px;
-}
-
-.textBox p{
-  font-size: 15px;
-  text-align: justify;
-  margin-top: 0;
-}
-
-.skillsContainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding-bottom: 18px;
-}
-
-.textBox{
-  display: flex;
-  flex-direction: column;
-  padding-right: 40px;
-  height: auto;
-  width: 33.33%;
-}
-
-
-
 /* ------------------STARTPAGE: aboutMePresentation------------------ */
 .aboutContainer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: auto;
 }
 
 .aboutContainer p{
@@ -134,7 +95,6 @@ h3{
   height: auto;
   min-height: 42px;
   padding-top: 30px;
-  align-items: baseline;
   letter-spacing: 1px;
 }
 
@@ -164,10 +124,47 @@ h3{
   height: auto;
   }
 
-/* ------------------STARTPAGE: SkillsPresentation------------------ */
+
+  /* ------------------TEXT BLOCKS: SKILLS, STUDIES and CASE PAGE TECH------------------ */
+
+  /* TECH, SKILLS, STUDIES headline */
+  h3{
+    font-family: BigJohn;
+    font-size: 22px;
+    color: #000;
+  }
+
+  /* Headlines in textboxes under TECH, SKILLS, STUDIES*/
+  .textBox h4{
+    font-family: BigJohn;
+    font-size: 15px;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .textBox p{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 0;
+  }
+
+  /* ------------------TECH SPECS, SKILLS, STUDIES------------------ */
 
 
-/* ------------------STARTPAGE: StudiesPresentation------------------ */
+  .skillsContainer, .studiesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 18px;
+  }
+
+  .textBox{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    height: auto;
+    width: 33.33%;
+  }
 
 
 /* ------------------CASEPAGE------------------ */
@@ -186,8 +183,7 @@ h3{
   font-size: 14px;
 }
 
-
-/* ------------------CasePage: caseTechSpecs------------------ */
+/* ------------------FOOTER------------------ */
 
 footer{
   display: flex;
@@ -206,4 +202,159 @@ footer p, h5{
   padding: 0px;
   font-size: 14px;
   color: #000;
+}
+
+/* ____________________________MEDIA QUERIES___________________________ */
+
+@media screen and (min-width: 841px) and (max-width: 1020px) {
+
+  /* page margins */
+  .pageContainer{
+    margin: 10px 75px;
+  }
+
+  /* ------------------TEXT BLOCKS: SKILLS, STUDIES and CASE PAGE TECH------------------ */
+  .textBox{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    height: auto;
+    width: 33.33%;
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 840px) {
+
+  /* page margins */
+  .pageContainer{
+    margin: 10px 20px;
+  }
+
+  .textBox{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    height: auto;
+    width: 33.33%;
+  }
+
+}
+
+@media screen and (min-width: 421px) and (max-width: 600px) {
+
+  /* page margins */
+  .pageContainer{
+    margin: 10px 20px;
+  }
+
+  .aboutContainerText{
+    padding-left: 0;
+  }
+
+  .aboutContainerImage img{
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    padding: 30px;
+  }
+
+  .CasePreviewBoxContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .CasePreviewBox{
+    width: 100%;
+  }
+
+  /* tech listing */
+  .techContainer p{
+    margin: 0;
+  }
+
+  .skillsContainer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 18px;
+  }
+
+  .studiesContainer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 18px;
+  }
+
+  .textBox{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  /* page margins */
+  .pageContainer{
+    margin: 10px 20px;
+  }
+
+  .aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+  }
+
+  .aboutContainerText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .aboutContainerImage img{
+    height: 230px;
+    width: auto;
+    object-fit: contain;
+    padding: 20px;
+  }
+
+  .CasePreviewBox{
+    width: 100%;
+  }
+
+  /* tech listing */
+  .techContainer p{
+    margin: 0;
+  }
+
+  .studiesContainer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 18px;
+  }
+
+  .skillsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 18px;
+  }
+
+  .textBox{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
 }
