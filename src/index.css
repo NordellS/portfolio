@@ -53,20 +53,31 @@ li{
 .aboutContainer p{
   font-size: 16px;
   font-weight: 300;
+  margin: 5px 0;
+
 }
 
 .aboutContainerText{
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 20px 0 0;
+}
+
+.contactInfo p{
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: #999999;
 }
 
 .aboutContainerImage img{
   height: 230px;
   width: auto;
   object-fit: contain;
-  padding: 40px;
+  padding: 40px 40px 0 40px;
 }
+
+
 
 /* ------------------STARTPAGE: TechPresentation------------------ */
 

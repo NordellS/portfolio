@@ -14,7 +14,7 @@
 			"image": "images/career-page.png",
 			"headline": "Career Page built in React using internal APIs. Client: Comprend.",
 			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["Something4", "Something4", "Something4", "Something4"],
+			"code": ["Something2", "Something2", "Something2", "Something2"],
 			"toolbox": ["Something2", "Something2", "Something2", "Something2"],
 			"moreInfo": "More"
 		},
@@ -32,7 +32,7 @@
 			"image": "images/onepager.png",
 			"headline": "One-pager in HTML and CS5# using Flexbox. Client: Volumental.",
 			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["Something2", "Something2", "Something2", "Something2"],
+			"code": ["Something4", "Something4", "Something4", "Something4"],
 			"toolbox": ["Something4", "Something4", "Something4", "Something4"],
 			"moreInfo": "More"
 		},
