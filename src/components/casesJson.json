@@ -2,57 +2,57 @@
 	"cases": [
 		{
 			"id": 1,
-			"image": "images/caseRadioPlayer.png",
 			"headline": "Radio player bulit in React using Sveriges Radio API.",
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["HTML5", "CSS3", "JavaScript ES6", "React GitHub"],
-			"toolbox": ["Something1", "Something1", "Something1", "Something1"],
-			"moreInfo": "More"
+			"image": "images/caseRadioPlayer.png",
+			"about": "Created a radio player using Sveriges Radio API. Playable audio stream urls, information about the radio channels, style elements and images are fetched.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "GitHub"],
+			"toolbox": ["Atom"],
+			"moreInfo": [""]
 		},
 		{
 			"id": 2,
+			"headline": "Career Site built in React using internal APIs. Client: Comprend.",
 			"image": "images/career-page.png",
-			"headline": "Career Page built in React using internal APIs. Client: Comprend.",
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["Something2", "Something2", "Something2", "Something2"],
-			"toolbox": ["Something2", "Something2", "Something2", "Something2"],
-			"moreInfo": "More"
+			"about": "Built a career page for the company Comprend using their internal career API. The carrer site concist of four different pages and is linked with React Router. Demo of project at the Comprend office. Team project.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+			"toolbox": ["Atom", "Adobe Photoshop", "Keynote", "Slack"],
+			"moreInfo": ["Concept development", "Agile methodology"]
 		},
 		{
 			"id": 3,
+			"headline": "News site built with Google News API. Client: Bonnier News.",
 			"image": "images/googlenewsapi.png",
-			"headline": "News site built with Google News API. Client: Bonnier.",
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["Something3", "Something3", "Something3", "Something3"],
-			"toolbox": ["Something3", "Something3", "Something3", "Something3"],
-			"moreInfo": "More"
+			"about": "Newspage about space built in js using Google News API. Demo of project at the Bonnier News office. Team project.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
+			"toolbox": ["Atom", "Postman", "Keynote", "Slack"],
+			"moreInfo": ["Concept development", "Agile methodology"]
 		},
 		{
 			"id": 4,
-			"image": "images/onepager.png",
-			"headline": "One-pager in HTML and CS5# using Flexbox. Client: Volumental.",
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["Something4", "Something4", "Something4", "Something4"],
-			"toolbox": ["Something4", "Something4", "Something4", "Something4"],
-			"moreInfo": "More"
+			"headline": "VAT calculator built in React",
+			"image": "images/caseVatCalc.png",
+			"about": "This is a VAT calculator built in React using controlled components.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+			"toolbox": ["Atom"],
+			"moreInfo": [""]
 		},
 		{
 			"id": 5,
-			"image": "images/caseSomething.png",
-			"headline": "VAT calculator built in React",
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["Something5", "Something5", "Something5", "Something5"],
-			"toolbox": ["Something5", "Something5", "Something5", "Something5"],
-			"moreInfo": "More"
+			"headline": "Clock screen built in React.",
+			"image": "images/caseClock.png",
+			"about": "A clock built by using state in React. Two buttons can be clicked - one to pause time and one to make the clock run again.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+			"toolbox": ["Atom"],
+			"moreInfo": [""]
 		},
 		{
 			"id": 6,
-			"image": "images/caseSomething.png",
-			"headline": "Weather Chrome Extension built on Open Weather API.",
-			"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-			"code": ["Something6", "Something6", "Something6", "Something6"],
-			"toolbox": ["Something6", "Something6", "Something6", "Something6"],
-			"moreInfo": "More"
+			"headline": "One-pager in HTML and CS5# using Flexbox. Client: Volumental.",
+			"image": "images/onepager.png",
+			"about": "One-pager for the company Volumental. Demo of project at the Volumental office. Team project.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
+			"toolbox": ["Atom", "Postman", "Keynote", "Slack"],
+			"moreInfo": [""]
 		}
 	]
 }

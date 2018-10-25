@@ -14,13 +14,16 @@ class AboutMePresentation extends React.Component {
           <h2>Sara Nordell</h2>
           <h1>Frontend Developer</h1>
           <p>
-          Hi! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Cras pellentesque finibus lacus, et tempus libero dapibus vel.
-          Pellentesque habitant morbi tristique senectus et netus et
-          malesuada fames ac turpis egestas.
+            Hi! I’m Sara, a Frontend Developer with years of experience from the
+            media industry and a big interest for design and new technologies.
+            I have worked in different positions in tv production, tv-format sales
+            and as project manager for two mobile applications (quiz games). I truly enjoy working
+            together with others to create the best possible product for the user.
+            As a developer I love to create products that make peoples life’s easier,
+            funnier or changed in a new direction.
           </p>
           <div className="contactInfo">
-            <p>sara@nordell.me</p>
+            <p><a href="mailto:sara@nordell.me">sara@nordell.me</a></p>
             <p>+46 (0)70 237 44 63</p>
           </div>
           <ToGithubButton />

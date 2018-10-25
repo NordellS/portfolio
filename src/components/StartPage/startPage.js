@@ -14,7 +14,7 @@ class StartPage extends React.Component {
   render() {
     return (
       <div>
-        <div className="pageContainer">
+        <div className="pageContainerStart">
           <AboutMePresentation />
           <TechPresentation />
 

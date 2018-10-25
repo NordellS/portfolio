@@ -13,7 +13,7 @@ class CasePage extends React.Component {
 
     return (
       <div>
-        <div className="pageContainer">
+        <div className="pageContainerCase">
           <NavigationBackButton />
           <div className="CaseDetailsContainer">
             {
@@ -41,6 +41,9 @@ class CasePage extends React.Component {
               </div>
               <div className="textBox">
                 <h4>More</h4>
+                {project.moreInfo
+                  .map(item =>
+                    <li>{item}</li>)}
               </div>
             </div>
           </section>

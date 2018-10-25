@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,800');
 @import url('https://fonts.googleapis.com/css?family=Signika:400,700');
 
+*{
+  box-sizing: border-box;
+
+}
 
 body {
   margin: 0;
@@ -28,8 +32,13 @@ h2{
 }
 
 /* page margins */
-.pageContainer{
-  margin: 10px 150px;
+.pageContainerStart{
+  margin: 10px 200px;
+}
+
+/* page margins */
+.pageContainerCase{
+  margin: 10px 250px;
 }
 
 li{
@@ -41,7 +50,7 @@ li{
 .aboutContainer{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   width: auto;
 }
 
@@ -49,20 +58,20 @@ li{
   font-size: 16px;
   font-weight: 300;
   margin: 5px 0;
-
 }
 
 .aboutContainerText{
   display: flex;
   flex-direction: column;
-  padding: 20px 20px 0 0;
+  padding: 20px 100px 0px 0px;
 }
 
-.contactInfo p{
+.contactInfo p, a{
   margin: 0;
   font-size: 13px;
   font-style: italic;
-  color: #999999;
+  color: #F5A71E;
+  text-decoration: none;
 }
 
 .aboutContainerImage img{
@@ -72,7 +81,24 @@ li{
   padding: 40px 40px 0 40px;
 }
 
+@keyframes textanimation {
+  25%%  {
+    color:#E46BB1;
+    background-position:0% 50%;}
+  50%%  {
+    color:#ffdd59;
+    background-position:0% 50%;}
+  75% {
+    color:#E46BB1;
+    background-position:0% 50%;}
+  100% {
+    color:#ffa100;
+    background-position:0% 50%;}
+}
 
+.contactInfo a:hover, .contactInfo p:hover {
+  animation: textanimation 0.9s linear infinite;
+}
 
 /* ------------------STARTPAGE: TechPresentation------------------ */
 
@@ -110,7 +136,8 @@ li{
   font-stretch: semi-expanded;
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .CasePreviewBox a{
@@ -166,6 +193,7 @@ li{
     flex-direction: row;
     justify-content: flex-start;
     padding-bottom: 18px;
+    margin:0px;
   }
 
   .textBox{
@@ -190,7 +218,7 @@ li{
 }
 
 .CaseDetailsContainer p{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* ------------------FOOTER------------------ */
@@ -216,14 +244,19 @@ footer p, h5{
 
 /* ____________________________MEDIA QUERIES___________________________ */
 
-@media screen and (min-width: 841px) and (max-width: 1020px) {
+@media screen and (min-width: 841px) and (max-width: 1120px) {
 
   /* page margins */
-  .pageContainer{
-    margin: 10px 75px;
+  .pageContainerStart{
+    margin: 10px 100px;
   }
 
-  /* ------------------TEXT BLOCKS: SKILLS, STUDIES and CASE PAGE TECH------------------ */
+  /* page margins */
+  .pageContainerCase{
+    margin: 10px 150px;
+  }
+
+  /* TEXT BLOCKS: SKILLS, STUDIES and CASE PAGE TECH */
   .textBox{
     display: flex;
     flex-direction: column;
@@ -234,137 +267,158 @@ footer p, h5{
 
 }
 
-@media screen and (min-width: 601px) and (max-width: 840px) {
+  @media screen and (min-width: 601px) and (max-width: 840px) {
 
-  /* page margins */
-  .pageContainer{
-    margin: 10px 20px;
+    /* page margins */
+    .pageContainerStart{
+      margin: 10px 20px;
+    }
+
+    /* page margins */
+    .pageContainerCase{
+      margin: 10px 20px;
+    }
+
+    .textBox{
+      display: flex;
+      flex-direction: column;
+      padding-right: 25px;
+      height: auto;
+      width: 33.33%;
+    }
+
   }
 
-  .textBox{
-    display: flex;
-    flex-direction: column;
-    padding-right: 25px;
-    height: auto;
-    width: 33.33%;
+  @media screen and (min-width: 421px) and (max-width: 600px) {
+
+    /* page margins */
+    .pageContainerStart{
+      margin: 10px 20px;
+    }
+
+    /* page margins */
+    .pageContainerCase{
+      margin: 10px 20px;
+    }
+
+    .aboutContainerText{
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+    }
+
+    .aboutContainerImage img{
+      height: 200px;
+      width: auto;
+      object-fit: contain;
+      padding: 30px;
+    }
+
+    /* tech listing */
+    .techContainer p{
+      margin: 0;
+    }
+
+    .CasePreviewBoxContainer{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+
+    .CasePreviewBox{
+      width: 100%;
+    }
+
+    .skillsContainer {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 18px;
+    }
+
+    .studiesContainer{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 18px;
+    }
+
+    .textBox{
+      display: flex;
+      flex-direction: column;
+      padding-right: 15px;
+      height: auto;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
   }
 
-}
+  @media screen and (max-width: 420px) {
 
-@media screen and (min-width: 421px) and (max-width: 600px) {
+    /* page margins */
+    .pageContainerStart{
+      margin: 10px 20px;
+    }
 
-  /* page margins */
-  .pageContainer{
-    margin: 10px 20px;
+    /* page margins */
+    .pageContainerCase{
+      margin: 10px 20px;
+    }
+
+    .aboutContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: auto;
+    }
+
+    .aboutContainerText{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .aboutContainerImage img{
+      height: 230px;
+      width: auto;
+      object-fit: contain;
+      padding: 20px;
+    }
+
+    /* tech listing */
+    .techContainer{
+      margin: 0;
+      padding: 0;
+    }
+    .techContainer p{
+      margin: 0;
+    }
+
+    .CasePreviewBox{
+      width: 100%;
+    }
+
+    .studiesContainer{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 18px;
+    }
+
+    .skillsContainer{
+      display: flex;
+      flex-flow: row wrap;
+      padding-bottom: 18px;
+    }
+
+    .textBox{
+      display: flex;
+      flex-direction: column;
+      padding-right: 15px;
+      height: auto;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
   }
-
-  .aboutContainerText{
-    padding-left: 0;
-  }
-
-  .aboutContainerImage img{
-    height: 200px;
-    width: auto;
-    object-fit: contain;
-    padding: 30px;
-  }
-
-  .CasePreviewBoxContainer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
-  .CasePreviewBox{
-    width: 100%;
-  }
-
-  /* tech listing */
-  .techContainer p{
-    margin: 0;
-  }
-
-  .skillsContainer {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 18px;
-  }
-
-  .studiesContainer{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 18px;
-  }
-
-  .textBox{
-    display: flex;
-    flex-direction: column;
-    padding-right: 15px;
-    height: auto;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-}
-
-@media screen and (max-width: 420px) {
-
-  /* page margins */
-  .pageContainer{
-    margin: 10px 20px;
-  }
-
-  .aboutContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-  }
-
-  .aboutContainerText{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    text-align: center;
-  }
-
-  .aboutContainerImage img{
-    height: 230px;
-    width: auto;
-    object-fit: contain;
-    padding: 20px;
-  }
-
-  .CasePreviewBox{
-    width: 100%;
-  }
-
-  /* tech listing */
-  .techContainer p{
-    margin: 0;
-  }
-
-  .studiesContainer{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 18px;
-  }
-
-  .skillsContainer {
-    display: flex;
-    flex-flow: row wrap;
-    padding-bottom: 18px;
-  }
-
-  .textBox{
-    display: flex;
-    flex-direction: column;
-    padding-right: 15px;
-    height: auto;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-}

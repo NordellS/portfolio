@@ -14,9 +14,9 @@ class SkillsPresentation extends React.Component {
             <li>Javascript ES6</li>
             <li>React</li>
             <li>SASS</li>
+            <li>BEM methodology</li>
             <li>GitHub</li>
             <li>Node.js</li>
-            <li>MongoDB</li>
           </div>
           <div className="textBox">
             <h4>Toolbox</h4>
@@ -35,8 +35,7 @@ class SkillsPresentation extends React.Component {
           </div>
           <div className="textBox">
             <h4>Upcoming</h4>
-            <li>CSS Grid</li>
-            <li>BEM</li>
+            <li>Anime JS</li>
             <li>Redux</li>
           </div>
         </div>

@@ -26,15 +26,6 @@ class StudiesPresentation extends React.Component {
             Section for Journalism, Media and Communication) 2009-2012.
             </p>
           </div>
-          <div className="textBox">
-            <h4>Other</h4>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Cras pellentesque finibus lacus, et tempus libero dapibus vel.
-            Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas.
-            </p>
-          </div>
         </div>
       </section>
 
