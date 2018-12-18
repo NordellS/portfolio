@@ -2,6 +2,15 @@
 	"cases": [
 		{
 			"id": 1,
+			"headline": "CO2 emission calculator and compensation tool, built in React.",
+			"image": "images/CO2calc.png",
+			"about": "Built a CO2 emission calculator and compensation tool in React using Geocoding API. The user can add flight trips and get a total C02 emission result, then compensate for this C02 dept by commiting to actions that will lower their C02 emission in the future. The C02 number will get lower for each chosen action and the goal is to reach 0.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "GitHub", "NodeJs"],
+			"toolbox": ["Atom", "Postman", "MondoDB", "Slack"],
+			"moreInfo": ["Concept development", "Agile methodology"]
+		},
+		{
+			"id": 2,
 			"headline": "Radio player bulit in React using Sveriges Radio API.",
 			"image": "images/caseRadioPlayer.png",
 			"about": "Created a radio player using Sveriges Radio API. Playable audio stream urls, information about the radio channels, style elements and images are fetched.",
@@ -10,25 +19,25 @@
 			"moreInfo": [""]
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"headline": "Career Site built in React using internal APIs. Client: Comprend.",
 			"image": "images/career-page.png",
 			"about": "Built a career page for the company Comprend using their internal career API. The carrer site concist of four different pages and is linked with React Router. Demo of project at the Comprend office. Team project.",
 			"code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
-			"toolbox": ["Atom", "Adobe Photoshop", "Keynote", "Slack"],
-			"moreInfo": ["Concept development", "Agile methodology"]
-		},
-		{
-			"id": 3,
-			"headline": "News site built with Google News API. Client: Bonnier News.",
-			"image": "images/googlenewsapi.png",
-			"about": "Newspage about space built in js using Google News API. Demo of project at the Bonnier News office. Team project.",
-			"code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
-			"toolbox": ["Atom", "Postman", "Keynote", "Slack"],
+			"toolbox": ["Atom", "Adobe Photoshop", "Slack"],
 			"moreInfo": ["Concept development", "Agile methodology"]
 		},
 		{
 			"id": 4,
+			"headline": "News site built with Google News API. Client: Bonnier News.",
+			"image": "images/googlenewsapi.png",
+			"about": "Newspage about space built in js using Google News API. Demo of project at the Bonnier News office. Team project.",
+			"code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
+			"toolbox": ["Atom", "Postman", "Slack"],
+			"moreInfo": ["Concept development", "Agile methodology"]
+		},
+		{
+			"id": 5,
 			"headline": "VAT calculator built in React",
 			"image": "images/caseVatCalc.png",
 			"about": "This is a VAT calculator built in React using controlled components.",
@@ -37,7 +46,7 @@
 			"moreInfo": [""]
 		},
 		{
-			"id": 5,
+			"id": 6,
 			"headline": "Clock screen built in React.",
 			"image": "images/caseClock.png",
 			"about": "A clock built by using state in React. Two buttons can be clicked - one to pause time and one to make the clock run again.",
@@ -46,12 +55,12 @@
 			"moreInfo": [""]
 		},
 		{
-			"id": 6,
+			"id": 7,
 			"headline": "One-pager in HTML and CS5# using Flexbox. Client: Volumental.",
 			"image": "images/onepager.png",
 			"about": "One-pager for the company Volumental. Demo of project at the Volumental office. Team project.",
 			"code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
-			"toolbox": ["Atom", "Postman", "Keynote", "Slack"],
+			"toolbox": ["Atom", "Postman", "Slack"],
 			"moreInfo": [""]
 		}
 	]
