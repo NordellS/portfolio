@@ -6,7 +6,7 @@ class NavigationBackButton extends React.Component {
   render() {
     return (
       <Link to="/portfolio">
-        <button className="navigationButtonTop-small"> &larr; Back </button>
+        <button type="button" className="navigationButtonTop-small"> &larr; Back </button>
       </Link>
     )
   }

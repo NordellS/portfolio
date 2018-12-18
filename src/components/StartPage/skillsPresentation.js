@@ -36,7 +36,6 @@ class SkillsPresentation extends React.Component {
           <div className="textBox">
             <h4>Upcoming</h4>
             <li>Anime JS</li>
-            <li>Redux</li>
           </div>
         </div>
       </section>

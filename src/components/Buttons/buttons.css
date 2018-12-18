@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Signika:400,700');
 
 .mediumButton {
   background-color: #FDE8C5;
+  text-transform: uppercase;
+  font-weight: 700;
   border-radius: 40px;
   color: #F5A71E;
   padding: 15px 0 12px;
@@ -9,8 +12,8 @@
   cursor: pointer;
   border: none;
   outline: none;
-  font-family: BigJohn;
-  font-size: 12px;
+  font-family: 'Signika', sans-serif;
+  font-size: 14px;
 }
 
 .mediumButton:hover {
@@ -18,6 +21,9 @@
 }
 
 .navigationButtonTop-small{
+  background-color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
   border-radius: 20px;
   color: #F5A71E;
   padding: 7px 0 5px;
@@ -26,8 +32,8 @@
   cursor: pointer;
   border: none;
   outline: none;
-  font-family: BigJohn;
   font-size: 16px;
+  font-family: 'Signika', sans-serif;
 }
 
 .navigationButtonTop-small:hover {
